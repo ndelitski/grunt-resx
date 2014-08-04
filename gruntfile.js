@@ -2,9 +2,14 @@
 
 module.exports = function(grunt){
 
+    grunt.initConfig({
+        nodeunit: {
+            tests: ['test/tests.js']
+        }
+    });
+
+    grunt.loadNpmTasks('grunt-contrib-nodeunit');
     grunt.loadTasks('./tasks');
 
-    grunt.initConfig({
-
-    });
+    grunt.registerTask('default', ['nodeunit'])
 };

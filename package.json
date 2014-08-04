@@ -20,6 +20,8 @@
     "url": "https://github.com/ndelitski/grunt-resx/issues"
   },
   "devDependencies": {
-    "grunt": "~0.4.5"
+    "grunt": "~0.4.5",
+    "nodeunit": "~0.9.0",
+    "grunt-contrib-nodeunit": "~0.4.1"
   }
 }
