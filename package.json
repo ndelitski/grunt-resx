@@ -1,0 +1,25 @@
+{
+  "name": "grunt-resx",
+  "version": "0.0.0",
+  "description": "Check missing localization strings among multilanguage resx dictionaries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ndelitski/grunt-resx.git"
+  },
+  "keywords": [
+    "grunt",
+    "resx"
+  ],
+  "author": "Nick Delitski",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ndelitski/grunt-resx/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  }
+}
