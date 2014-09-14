@@ -5,6 +5,10 @@ module.exports = function(grunt){
     grunt.initConfig({
         nodeunit: {
             tests: ['test/tests.js']
+        },
+
+        resx: {
+
         }
     });
 

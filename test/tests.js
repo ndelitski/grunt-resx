@@ -1,13 +1,17 @@
-var grunt = require('grunt');
+var grunt = require('grunt'),
+    lib = require('./../lib');
 
 module.exports = {
     setUp: function (done) {
         done();
     },
 
-    initConfig: function (test) {
+    readKeysFromFile: function (test) {
+        var resxFile = grunt.file.read('./fixtures/ErrorStrings.resx'),
+            keys = lib.getKeysFromResxFile(resxFile);
+
         test.expect(1);
-        test.deepEqual();
+        test.ok(resxFile!='');
         test.done();
     },
 

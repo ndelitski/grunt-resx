@@ -23,5 +23,8 @@
     "grunt": "~0.4.5",
     "nodeunit": "~0.9.0",
     "grunt-contrib-nodeunit": "~0.4.1"
+  },
+  "dependencies": {
+    "xpath": "0.0.7"
   }
 }
